@@ -28,21 +28,21 @@ export function About() {
                 height={250}
             />
 
-
-            
-
         </div>
         <div className="" >
             <p>
             {'<article>'}
-                Programador Front-end com experiência na criação de sites responsivos e aplicativos mobile.
-                Utilizo principalmente React, NextJs e Styled-Components, com ênfase nas melhores práticas e Clean Code.
-                Atuei como Tech Lead  em uma startup, onde desenvolvi e auxiliei estagiários em suas tarefas como Code Reviews e boas práticas.
+                Me chamo Gabriel, e ao longo dos meus 3 anos de experiência como Desenvolvedor Front-end,
+                possuo especialização em React, Graduação em Análise e Desenvolvimento de Sistemas e pude 
+                integrar diversos time, como na empresa Bairru onde participei no desenvolvimento de diversas 
+                interfaces Web/Mobiles complexas aplicando a metodologia de clean code e princípios de UX/UI. 
+                Ao longo da minha carreira já atuei com diferentes tecnologias, incluindo Next.js, TypeScript,
+                React Native e serviços em cloud como AWS S3, RDS e EC2.
             {'</article>'}
             </p>
 
             <p className="m-5 font-bold text-3xl text-center">
-                My TimeLine
+                Linha do Tempo
             </p>
 
             <TimeLine />

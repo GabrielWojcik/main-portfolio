@@ -13,14 +13,14 @@ export function TimeLine(){
           <TimelineDot color="success" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>Estágio - Suporte ao usuario </TimelineContent>
+          <TimelineContent>Estágio - Suporte ao usuário </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
           <TimelineDot color="success" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>Estágio - Front-end</TimelineContent>
+          <TimelineContent>Estagiário de Tecnologia de Informação</TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
@@ -34,7 +34,7 @@ export function TimeLine(){
           <TimelineDot color="success" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>Analista e Desenvolver Jr.</TimelineContent>
+          <TimelineContent>Analista e Desenvolvedor de Sistemas</TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>

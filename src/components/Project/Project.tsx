@@ -13,10 +13,29 @@ export function Project() {
 
         </div>
         <div className=" p-2 border rounded-sm" >
+            <strong> 🌤️ Weather-forecast</strong>
+            <p>
+                Seu objetivo é fornecer informações sobre a previsão ☀️ do tempo
+                Tecnologias:
+                React,
+                TypeScript,
+                TailwindCSS
+                e
+                APIs Restful.
+            </p>
+            <Link href="https://github.com/GabrielWojcik/weather-forecast"  target="_blank">
+                <p className="underline underline-offset-2">
+                    Git hub
+                </p>
+            </Link>
+
+
+        </div>
+        <div className=" p-2 border rounded-sm" >
             <strong> 📱 So-Pets</strong>
             <p>
-                App built with JavaScript and React Native focused on recording pet 
-                exams/vaccinations and scheduling medical appointments.
+                App construído com JavaScript e React Native focado em criar um histórico
+                de animais de estimação com exames/vacinas e agendamento de consultas médicas.
             </p>
             <Link href="https://github.com/GabrielWojcik/So-Pets"  target="_blank">
                 <p className="underline underline-offset-2">
@@ -30,8 +49,8 @@ export function Project() {
         <div className=" p-2 border rounded-sm" >
             <strong> 💻 Nlw-expert-notes </strong>
             <p>
-                A web application created to save notes, either text or voice,
-                developed with React and TypeScript.
+                Um aplicativo Web criado para salvar notas, seja texto ou voz,
+                desenvolvido com React e TypeScript.
             </p>
             <Link href="https://github.com/GabrielWojcik/nlw-expert-notes"  target="_blank">
                 <p className="underline underline-offset-2">

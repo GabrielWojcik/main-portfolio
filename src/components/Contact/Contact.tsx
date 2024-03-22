@@ -13,7 +13,7 @@ export function Contact() {
 
         </div>
         <div className=" p-2 border rounded-sm bg-blue-300" >
-            <strong> 📱 Linkedin</strong>
+            <strong>📱 Linkedin</strong>
             <p>
                 Obtenha mais informações sobre meu curriculo, ou entre em contato comigo.
             </p>
@@ -29,7 +29,7 @@ export function Contact() {
             <strong> 💻 E-mail </strong>
             <p>
             Caso prefira, você pode enviar um e-mail para 
-            <a href="mailto:gabrielwojcikv@gmail.com">gabrielwojcikv@gmail.com</a>
+            <a href="mailto:gabrielwojcikv@gmail.com"> gabrielwojcikv@gmail.com </a>
 
             </p>
             <Link href="mailto:gabrielwojcikv@gmail.com">
@@ -40,9 +40,9 @@ export function Contact() {
 
         </div>
         <div className=" p-2 border rounded-sm bg-lime-400" >
-            <strong> 🛍️ WhatsApp</strong>
+            <strong> 📱 WhatsApp</strong>
             <p>
-                Se preferir entre em contato atravez do meu WhatsApp +55 41 99976-5482.
+                Se preferir entre em contato atravez do meu WhatsApp +55 (41) 9 9976-5482.
             </p>
             <Link href="https://api.whatsapp.com/send?phone=5541999765482">
                 <p className="underline underline-offset-2">
@@ -53,7 +53,7 @@ export function Contact() {
 
         </div>
         <div className=" p-2 border rounded-sm bg-indigo-300" >
-            <strong> 🛍️ GitHub</strong>
+            <strong> 📕 GitHub</strong>
             <p>
                 Para ver meus projetos, contribuições ou conquistas acesse meu GitHub.
             </p>
