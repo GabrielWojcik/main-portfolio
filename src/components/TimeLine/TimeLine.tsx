@@ -45,16 +45,23 @@ export function TimeLine(){
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot color="primary" />
+            <TimelineDot color="success" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>AWS Certification Cloud Practitioner - em andamento</TimelineContent>
+          <TimelineContent>AWS Certification Cloud Practitioner</TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot color="secondary" />
           </TimelineSeparator>
-          <TimelineContent>Pós Graduação...em breve</TimelineContent>
+          <TimelineContent>Analista e Desenvolvedor de Sistemas</TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot color="info" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>Pós Graduação</TimelineContent>
         </TimelineItem>
       </Timeline>
     )

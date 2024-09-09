@@ -32,9 +32,9 @@ export function About() {
         <div className="" >
             <p>
             {'<article>'}
-                Me chamo Gabriel, e ao longo dos meus 3 anos de experiência como Desenvolvedor Front-end,
+                Me chamo Gabriel, e ao longo dos meus 4 anos de experiência como Desenvolvedor Front-end,
                 possuo especialização em React, Graduação em Análise e Desenvolvimento de Sistemas e pude 
-                integrar diversos time, como na empresa Bairru onde participei no desenvolvimento de diversas 
+                integrar diversos time, como na empresa Vega I.T. onde participei no desenvolvimento de diversas 
                 interfaces Web/Mobiles complexas aplicando a metodologia de clean code e princípios de UX/UI. 
                 Ao longo da minha carreira já atuei com diferentes tecnologias, incluindo Next.js, TypeScript,
                 React Native e serviços em cloud como AWS S3, RDS e EC2.
