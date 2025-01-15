@@ -25,7 +25,9 @@ export function Header() {
                     <p className="text-xs">Porque se a capa não te impressiona, o que mais pode?</p>
                 </div>
                 <div className="absolute  pt-16 pr-[71px]">
-                    <Image src={Elipse} alt="" />
+                    <Image src={Elipse} alt="" 
+                    />
+
                 </div>
             </div>
             <div className="flex flex-col justify-end items-end ml-10 pt-10">
