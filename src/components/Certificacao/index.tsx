@@ -16,7 +16,7 @@ export function Expirience() {
                 <div className="flex flex-col flex-wrap justify-center  gap-4 max-[600px]:w-[100%] max-[600px]:items-center">
                     <div className="flex border-t-4 border-[#693B93] bg-[#4F228D] rounded-lg p-2 max-[600px]:p-0 max-[600px]:flex-col">
                         <Image src={Aws} alt="" width={300} height={300} />
-                        <div className="flex flex-col p-4 justify-center max-[600px]:p-2">
+                        <div id="aws" className="flex flex-col p-4 justify-center max-[600px]:p-2">
                             <p className="text-white text-[26px]  max-[600px]:text-[12px]">AWS Certified Cloud Practitioner</p>
                             {/* <p className="text-[8px]">App desenvolvido em JavaScript e React Native com foco no registro de exames/vacinações de animais de estimação e agendamento de consultas médicas</p> */}
                             <a href="https://www.credly.com/badges/3e19e4c0-24be-40ab-aca2-1c054766830d/linked_in_profile" target="_blank" >

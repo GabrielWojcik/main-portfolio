@@ -1,7 +1,15 @@
+"use client"
 import Image from "next/image";
 import Logo from "../../assets/icons/Logo.png";
 
 export function NavBar() {
+
+    const scrollToSection = (sectionId: string) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
    
 
     return (
@@ -12,9 +20,15 @@ export function NavBar() {
 
             <div className="w-6/12">
                 <ul className="flex justify-around text-white">
-                    <li className="cursor-pointer">Home</li>
-                    <li className="cursor-pointer">Sobre</li>
-                    <li className="cursor-pointer">Contato</li>
+                    <li className="cursor-pointer hover:text-gray-300 transition-colors duration-300" onClick={() => scrollToSection("home")}>
+                        Home
+                    </li>
+                    <li className="cursor-pointer hover:text-gray-300 transition-colors duration-300" onClick={() => scrollToSection("about")}>
+                        Sobre
+                    </li>
+                    <li className="cursor-pointer hover:text-gray-300 transition-colors duration-300" onClick={() => scrollToSection("contact")}>
+                        Contato
+                    </li>
                 </ul>
             </div>
         </div>

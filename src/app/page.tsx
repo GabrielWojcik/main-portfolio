@@ -1,9 +1,7 @@
 import { Expirience } from "@/components/Certificacao";
 import { Contact } from "@/components/Contato";
-import { Explorer } from "@/components/Explorer/Explorer";
 import { Header } from "@/components/Header";
 import { NavBar } from "@/components/NavBar/NavBar";
-import { Section } from "@/components/Section/Section";
 import { Skills } from "@/components/Skiils";
 import { WorkExpirience } from "@/components/Work";
 

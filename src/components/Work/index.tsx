@@ -12,7 +12,6 @@ export function WorkExpirience() {
             <p className="text-4xl m-5 justify-start max-[600px]:justify-center max-[600px]:text-[20px]">
                 Experiência Profissional
             </p>
-
             <div className="flex flex-wrap items-center justify-center w-1/2 ">
                 <div className="flex flex-wrap justify-center  gap-4">
                     <div className="flex border-t-4 border-[#693B93] w-80 bg-[#4F228D] rounded-lg p-2 max-[600px]:w-72">

@@ -1,10 +1,11 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 export function Contact() {
     return(
-        <div className="flex flex-col justify-center items-center pt-10 text-white">
+        <div id="contact" className="flex flex-col justify-center items-center pt-10 text-white pb-5">
             <p className="text-4xl m-5 justify-start max-[600px]:text-[20px]">
                 Contato
             </p>
@@ -25,6 +26,10 @@ export function Contact() {
                 </a>
                 <a href="https://www.instagram.com/gabriel.wojcik?igsh=MXB1a3czajZqdXBsNQ%3D%3D&utm_source=qr" target="_blank">
                     <FaInstagram size={50} color="#9111E5" />
+                </a>
+                
+                <a href="https://github.com/GabrielWojcik" target="_blank">
+                    <FaGithub size={50} color="#FFF" />
                 </a>
                 
             </div>

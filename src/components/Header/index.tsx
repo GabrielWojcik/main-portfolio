@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Me2 from "../../assets/icons/Me2.png";
 import Gradient from "../../assets/icons/Gradient.svg";
@@ -5,8 +6,16 @@ import Arrow from "../../assets/icons/Arrow.svg";
 import Elipse from "../../assets/icons/Ellipse.svg";
 
 export function Header() {
+    const scrollToSection = (sectionId: string) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+   
+
     return(
-        <div id="header" className="flex flex-col items-center  pt-16" >
+        <div id="home" className="flex flex-col items-center  pt-16" >
             <div className=" flex justify-center items-center w-[100%]">
                 <Image src={Arrow} alt="" />
                 <p className="relative top-6 text-[#7127BA]">Gabriel Wojcik</p>
@@ -31,7 +40,7 @@ export function Header() {
                 </div>
             </div>
             <div className="flex flex-col justify-end items-end ml-10 pt-10">
-                <div className="flex flex-col justify-end items-center text-white">
+                <div id="about" className="flex flex-col justify-end items-center text-white">
                     <p className="text-5xl max-[600px]:text-[20px]">
                         Desenvolvedor Front-end 
                     </p>
@@ -40,7 +49,7 @@ export function Header() {
                         especializado em ReactJS e NextJS. Crio soluções digitais que equilibram 
                         as necessidades dos usuários com os objetivos de negócios, sempre focando em 
                         desempenho e escalabilidade. 
-                        Tenho certificação <strong className="text-[#F49E11]">AWS Cloud Practitioner</strong>, o que me permite integrar minhas 
+                        Tenho certificação <strong className="text-[#F49E11] underline cursor-pointer" onClick={() => scrollToSection("aws")}>AWS Cloud Practitioner</strong>, o que me permite integrar minhas 
                         habilidades de desenvolvimento com a nuvem para criar produtos eficientes e de 
                         alta qualidade.
                     </p>
